@@ -1,0 +1,33 @@
+p{
+  font-family: Arial;
+}
+.prop{
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name{
+  font-size: large;
+  text-align: center;
+  font-style: italic;
+  color: rgb(131,116,111);
+  margin-bottom: 5px;
+}
+.g{
+  font-family: Arial;
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(131,116,111);
+  font-style: italic;
+}
+.bio,.std{
+  text-align: center;
+}
+.h,.e{
+  font-weight: bold;
+  margin-bottom: 2px;
+}
