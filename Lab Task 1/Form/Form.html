@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <style>
+            body{
+                background-color: rgb(231, 231, 231);
+            }
+            p{
+                font-size: 12px;
+                font-family: Arial;
+            }
+            .star{
+                color: red;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            input{
+                margin-left: 30px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            <span class="star">*</span> - Denotes required Information
+        </p>
+        <p>
+            <b>>1 Donation</b> &nbsp; >2 Confirmation &nbsp; > Thank You!
+        </p>
+        <div class="Donor">
+            <p class="star">Donor Information</p>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            First Name<span class="star">*</span>
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            last Name<span class="star">*</span>
+                        </td>
+                        <td>
+                            <input type="text" id="lname" name="lname"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Company
+                        </td>
+                        <td>
+                            <input type="text" id="com" name="com"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address 1<span class="star">*</span>
+                        </td>
+                        <td>
+                            <input type="text" id="Ad1" name="Ad1"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address 2
+                        </td>
+                        <td>
+                            <input type="text" id="Ad2" name="Ad2"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            City<span class="star">*</span>
+                        </td>
+                        <td>
+                            <input type="text" id="city" name="city"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            State<span class="star">*</span>
+                        </td>
+                        <td>
+                            <input type="text" id="state" name="state"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <TD>
+                            Zip Code<span class="star">*</span>
+                        </TD>
+                        <td>
+                            <input type="text" id="zip" name="zip"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Country<span class="star">*</span>
+                        </td>
+                        <td>
+                            <input type="text" id="cn" name="cn"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone
+                        </td>
+                        <td>
+                            <input type="text" id="ph" name="ph"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email<span class="star">*</span>
+                        </td>
+                        <td>
+                            <input type="text" id="em" name="em"><br>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            Donation Amount<span class="star">*</span>
+                        </td>
+                        <td>
+                            <input type="radio" id="st" name="dn" value="100">
+                            <label for="st">100</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="nd" name="dn" value="1000">
+                            <label for="nd">1000</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="rd" name="dn" value="10000">
+                            <label for="rd">10000</label><br>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="memo">
+            <p class="star">Honorarium and Memorial Donation</p>
+            <form>
+                <table>
+                    <tr>
+                        <td rowspan="0">
+                            I would like to make this Donation
+                        </td>
+                        <td>
+                            <input type="radio" id="hn" name="to" value="honor">
+                            <label for="hn">To Honor</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="mo" name="to" value="memorial">
+                            <label for="mo">In memory of</label><br>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            <input type="text" id="tname" name="tname"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Donation To
+                        </td>
+                        <td>
+                            <input type="text" id="dname" name="dname"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address
+                        </td>
+                        <td>
+                            <input type="text" id="Ad" name="Ad"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            City
+                        </td>
+                        <td>
+                            <input type="text" id="ct" name="ct"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            State
+                        </td>
+                        <td>
+                            <select id="stn" name="stn">
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Khulna">Khulna</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table> 
+            </form>
+        </div>
+    </body>
+</html>
