@@ -1,0 +1,42 @@
+.ftm{
+  position: fixed;
+  bottom: 0;
+}
+body{
+  background-image: url("homeBg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: Arial;
+}
+.frm1{
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 700px;
+  width: 600px;
+  background-color: white;
+  opacity: 75%;
+  border-radius: 8px;
+}
+.lbl{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+.fld{
+  font-size: 20px;
+  margin-left: 55px;
+  background-color: white;
+  border: none;
+  margin-bottom: 3px;
+}
+.btn1{
+  margin-top: 20px;
+  margin-left: 220px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

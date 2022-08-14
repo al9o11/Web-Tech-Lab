@@ -1,0 +1,100 @@
+
+body{
+  background-image: url('homeBg.jpg') ;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+p{
+  font-family: Arial;
+  font-size: medium;
+}
+table, th, td {
+  border:1px solid black;
+  font-size: 20px;
+  text-align: center;
+}
+.left{
+  width: 150px;
+  height: 650px;
+  background-color: rgb(226, 220, 212);
+  margin-top: 0px;
+  margin-left: 55px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+.pro{
+  border-radius: 50%;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 110px;
+}
+.gtimg,.fb{
+  border-radius: 50%;
+  display: inline;
+  width: 25px;
+  opacity: 50%;
+  margin-top: 5px;
+}
+.fb{
+  margin-left: 8px;
+}
+.ll{
+  margin-top: 50px;
+  font-size: 14px;
+}
+.mt{
+  display: inline-block;
+  width: 350px;
+  height: 650px;
+  margin-left: 0px;
+  background-color: rgb(226, 220, 212);
+  vertical-align: top;
+}
+.gi,.eq,.sk{
+  margin-top: 110px;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+}
+.hb{
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+}
+.info,.hbl{
+  font-size: 20px;
+}
+.right{
+  display: inline-block;
+  width: 350px;
+  height: 650px;
+  margin-left: 0px;
+  background-color: rgb(226, 220, 212);
+  vertical-align: top;
+}
+.ei{
+  font-size: 20px;
+  margin-top: 12px;
+}
+.last{
+  display: inline-block;
+  width: 350px;
+  height: 650px;
+  margin-left: 0px;
+  background-color: rgb(226, 220, 212);
+  vertical-align: top;
+}
+.ts{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
